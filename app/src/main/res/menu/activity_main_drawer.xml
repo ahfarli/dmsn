@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_produk"
+            android:title="Produk" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_keranjang"
+            android:title="Keranjang" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Konfirmasi Pembayaran" />
+    </group>
+
+    <item android:title="DMSNCLOTH">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Tentang kami" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Akun" />
+
+        </menu>
+    </item>
+
+</menu>
